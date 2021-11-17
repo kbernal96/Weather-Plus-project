@@ -129,4 +129,4 @@ function fahrenheitToCelsius(event){
 }
 
 let toCelsius = document.querySelector("#celsius");
-toCelsius.addEventListener("click",fahrenheitToCelsius);
+toCelsius.addEventListener("click",fahrenheitToCelsius); 
