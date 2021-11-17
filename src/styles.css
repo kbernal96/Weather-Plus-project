@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+form{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+}
+h1,h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+h5 {
+    font-size: 25px;
+    font-weight: 400;
+}
+h6 {
+    font-size: 12px;
+}
+hr {
+    border: 2px solid tan;
+}
+footer {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(163, 87, 163);
+    text-align: center;
+    margin-top: 2em;
+}
+.search-bar {
+  width: 60%;
+  font-family: 'Cutive Mono', monospace;
+  background-color: rgb(209, 192, 170);
+  align-self: center;
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+}
+.search-button {
+    width: 10%;
+    background-color: thistle;
+    border: 2px solid tan;
+    border-radius: 5px;
+}
+.current-location {
+    width: 25%;
+    border-radius: 5px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    background-color: thistle;
+    border: 2px solid tan;
+}
+.container {
+    padding: 100px;
+    display: block;
+    margin: 0 auto;    
+}
+.weather-design{
+    background: radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.9) 0%, rgb(181, 205, 154) 90%);
+    border: 1px dashed tan;
+    border-radius: 10px;
+    display: block;
+    margin: 60px auto;;
+    padding: 30px 50px;
+}
+.current-date {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+}
+.description {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1px;
+}
+.weather-illustration {
+    display: block;
+    text-align: center;
+    font-size: 200px;
+}
+.temperature {
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+.unit {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+    color: black;
+}
+.unit a {
+    text-decoration: none;
+    color: black;
+}
+.unit a:hover {
+    text-decoration: underline;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+.condition {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: left;
+    position: relative;
+    top: 50px;
+}
+.forecast {
+    text-align: center;
+}
+.date {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 15px;
+}
+.forecast-illustration {
+    font-size: 28px;
+    font-weight: 100;
+}
+.forecast-temperature {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.search-button:hover {
+    background-color: tan;
+    border: 2px solid thistle;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+.credits {
+    color: rgb(146, 121, 88);
+}
