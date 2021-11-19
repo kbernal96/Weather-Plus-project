@@ -27,12 +27,7 @@ hr {
     border: 2px solid tan;
 }
 footer {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 15px;
-    font-weight: bolder;
-    color: rgb(163, 87, 163);
-    text-align: center;
-    margin-top: 2em;
+    text-align: left;
 }
 .search-bar {
   width: 60%;
@@ -69,6 +64,7 @@ footer {
     display: block;
     margin: 60px auto;;
     padding: 30px 50px;
+    margin-bottom: 5px;
 }
 .current-date {
     font-family: 'Cutive Mono', monospace;
@@ -141,4 +137,19 @@ footer {
 }
 .credits {
     color: rgb(146, 121, 88);
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.source-code {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(163, 87, 163);
+}
+.source-code:hover {
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    font-weight: bolder;
+    color:rgb(117, 51, 117);
 }
